@@ -1,0 +1,22 @@
+:root {
+	--color-primary: #08a6e4;
+	--color-primary-shadow: #08a8e329;
+	--color-redish: #fb3b64;
+	--color-redish-shadow: #fb3d6329;
+	--color-greenish: #55dfb4;
+	--color-greenish-shadow: #55e1b329;
+	--color-black: #000000;
+	--color-white: #ffffff;
+	--color-light-grey: #f7f7f7;
+	--font-primary: 'Raleway', sans-serif;
+	--font-secondary: 'Open Sans', sans-serif;
+}
+
+.container {
+	max-width: 1352px;
+	margin: 0 auto;
+}
+
+body{
+    font-family: var(--font-primary);
+}
