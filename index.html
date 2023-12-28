@@ -165,12 +165,57 @@
             </div>
         </section>
 
-        <section class="contact">
-            
+        <section class="contact container">
+            <div class="contact__column">
+                <h2 class="contact__title">Any questions?</h2>
+                <p class="contact__information">Leave yopu email address or call us!</p>
+                <div class="contact__details">
+                    <a href="" class="detail__item"><img src="./assets/Mail Icon.svg" alt="mail">info@bestshop.xyz</a>
+
+                    <a href="" class="detail__item"><img src="./assets/Phone Icon.svg" alt="phone">123 456 789</a>
+                </div>
+            </div>
+
+            <div class="contact__column">
+                <form class="contact__form">
+                    <div class="form__field">
+                        <label class="form__label" for="name">name</label>
+                        <input class="form__input" type="text" id="name">
+                    </div>
+                    <div class="form__field">
+                        <label class="form__label" for="email">email</label>
+                        <input class="form__input" type="email" id="email">
+                    </div>
+
+                    <div class="form__consent">
+                        <label class="form__checkbox">
+                            <input type="checkbox">
+                            <span class="checkbox"></span>
+                            <p>I hereby give consent for my personal data included in my application to be processed for
+                                the purposes of the recruitment process under the European Parliament’s and Council of
+                                the European Union Regulation on the Protection of Natural Persons as of 27 April 2016,
+                                with regard to the processing of personal data and on the free movement of such data,
+                                and repealing Directive 95/46/EC (Data Protection Directive)</p>
+                        </label>
+                    </div>
+                    <button type="submit" class="form__button">Send</button>
+                </form>
+            </div>
         </section>
-
     </main>
+    <footer class="footer">
+        <div class="footer__content container">
+            <div class="footer__info">
+                <a class="footer__logo">BestShop</a>
+                <span class="footer__copy">&copy; 2023 BestShop LTD, All Rights Reserved</span>
+            </div>
 
+            <div class="footer__icons">
+                <a href=""><img src="./assets/Twitter.svg" alt="twitter"></a>
+                <a href=""><img src="./assets/Facebook.svg" alt="facebook"></a>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
