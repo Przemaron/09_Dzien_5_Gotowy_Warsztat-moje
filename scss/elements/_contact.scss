@@ -1,0 +1,43 @@
+.contact {
+	padding: 80px 200px 100px;
+	display: flex;
+	justify-content: center;
+}
+
+.contact__column {
+	width: 50%;
+}
+
+.contact__title {
+	font-size: 3.063rem;
+	line-height: 3.563rem;
+	margin-bottom: 1.375rem;
+}
+
+.contact__information {
+	font-family: $font-secondary;
+	margin-bottom: 2.625rem;
+	line-height: 1.375rem;
+}
+
+.contact__details {
+	display: flex;
+	justify-content: start;
+}
+
+.detail__item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 600;
+	color: #a5a5a5;
+	font-family: $font-secondary;
+}
+
+.detail__item:first-of-type {
+	margin-right: 20px;
+}
+
+.detail__item img {
+	margin-right: 10px;
+}

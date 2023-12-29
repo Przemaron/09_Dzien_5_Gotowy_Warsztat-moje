@@ -1,0 +1,140 @@
+.benefits {
+	padding: 6.25rem 0;
+	background-color: #f7f7f7;
+}
+
+.benefits__content {
+	padding: 0 6.875rem;
+}
+
+.benefit__box {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	background-color: $color-white;
+	border: 1px solid #e8e9ed;
+	border-radius: 0.3125rem;
+	margin-bottom: 2.3125rem;
+}
+
+.benefit__text {
+	margin: 5.625rem 2.1875rem;
+	max-width: 25.9375rem;
+}
+
+.benefit__text::after {
+	content: '';
+	display: block;
+	width: 20.5rem;
+	height: 0.25rem;
+	margin-top: 3.125rem;
+	background-color: var(--accent-color);
+}
+
+.benefit__title {
+	font-size: 2.25rem;
+	margin-right: 3.125rem;
+}
+
+.benefit__description {
+	font-family: $font-secondary;
+	margin-top: 1.875rem;
+	margin-right: 1.25rem;
+}
+
+.benefit__image {
+	position: relative;
+}
+
+.benefit__image img {
+	position: relative;
+}
+
+.benefit__macbook {
+	--accent-color: #{$color-redish};
+}
+
+.benefit__macbook .benefit__image {
+	bottom: 2.375rem;
+	right: 7.313rem;
+}
+
+.benefit__macbook .benefit__image::before {
+	content: '';
+	position: absolute;
+	top: -2.5rem;
+	right: 0;
+	width: 11.25rem;
+	height: 11.25rem;
+	display: block;
+	background-color: var(--accent-color);
+	border-radius: 2.5rem;
+	transform: rotate(45deg);
+}
+
+.benefit__macbook .benefit__image img {
+	width: 24.125rem;
+	height: auto;
+}
+
+.benefit__iphone {
+	--accent-color: #{$color-primary};
+	flex-direction: row-reverse;
+}
+
+.benefit__iphone .benefit__image {
+	left: 4.375rem;
+	bottom: 0.813rem;
+}
+
+.benefit__iphone .benefit__image::before {
+	content: '';
+	position: absolute;
+	top: -1.5rem;
+	left: 0;
+	width: 20rem;
+	height: 20rem;
+	display: block;
+	background-color: var(--accent-color);
+	border-radius: 50%;
+}
+
+.benefit__iphone .benefit__image {
+	width: 26.625rem;
+	height: auto;
+}
+
+.double__box {
+	display: flex;
+}
+
+.double__box div {
+	margin-bottom: 0;
+}
+
+.benefit__trumpet {
+	--accent-color: #{$color-greenish};
+	max-width: 38.938rem;
+}
+
+.benefit__trumpet .benefit__text {
+	max-width: none;
+	margin: 4.375rem 2.188rem;
+}
+
+.double__box .benefit__image {
+	display: flex;
+	flex-grow: 1;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	border-radius: 0.3125rem;
+	background-color: $color-greenish;
+	margin-left: 3.75rem;
+}
+
+.double__box .benefit__image img {
+	width: 18.438rem;
+	height: auto;
+	margin-top: 3.438rem;
+}
