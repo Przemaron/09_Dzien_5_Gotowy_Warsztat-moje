@@ -19,11 +19,11 @@
         <div class="header__content container">
             <a href="" class="header__logo">Best Shop</a>
             <nav>
-                <ul class="nav__list">
-                    <li class="list__element"><a href="#">why us</a></li>
-                    <li class="list__element"><a href="#">benefits</a></li>
-                    <li class="list__element"><a href="#">prices</a></li>
-                    <li class="list__element"><a href="#">contact</a></li>
+                <ul class="nav">
+                    <li class="nav__element"><a href="#">why us</a></li>
+                    <li class="nav__element"><a href="#">benefits</a></li>
+                    <li class="nav__element"><a href="#">prices</a></li>
+                    <li class="nav__element"><a href="#">contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -70,9 +70,9 @@
             </div>
         </section>
 
-        <section class="benefits">
-            <div class="benefits__content container">
-                <div class="benefit__box benefit__macbook">
+        <section class="benefit">
+            <div class="benefit__content container">
+                <div class="benefit__box benefit__box--macbook">
                     <div class="benefit__text">
                         <h2 class="benefit__title">Be always first</h2>
                         <p class="benefit__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad
@@ -83,7 +83,7 @@
                     </div>
                 </div>
 
-                <div class="benefit__box benefit__iphone">
+                <div class="benefit__box benefit__box--iphone">
                     <div class="benefit__text">
                         <h2 class="benefit__title">Your shop is <br> where you are!</h2>
                         <p class="benefit__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -94,8 +94,8 @@
                     </div>
                 </div>
 
-                <div class="double__box">
-                    <div class="benefit__box benefit__trumpet">
+                <div class="benefit__double">
+                    <div class="benefit__box benefit__box--trumpet">
                         <div class="benefit__text">
                             <h2 class="benefit__title">Increace recognition your brand!</h2>
                             <p class="benefit__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -114,7 +114,7 @@
             <div class="pricing__content container">
                 <h2>Pricing</h2>
                 <div class="pricing__boxes">
-                    <div class="pricing__box pricing__box-basic">
+                    <div class="pricing__box pricing__box--basic">
                         <div class="pricing__detail">
                             <div class="pricing__type">Basic</div>
                             <div class="pricing__price">$ 0</div>
@@ -124,13 +124,13 @@
                             <div class="pricing__item">100 MB HDD</div>
                             <div class="pricing__item">1 Subdomain</div>
                             <div class="pricing__item">2 E-mails</div>
-                            <div class="pricing__item pricing__item-not">Two years license</div>
-                            <div class="pricing__item pricing__item-not">Full support</div>
+                            <div class="pricing__item pricing__item--not">Two years license</div>
+                            <div class="pricing__item pricing__item--not">Full support</div>
                         </ul>
                         <a href="" class="pricing__button">Begin</a>
                     </div>
 
-                    <div class="pricing__box pricing__box-professional">
+                    <div class="pricing__box pricing__box--professional">
                         <div class="pricing__detail">
                             <div class="pricing__type">Professional</div>
                             <div class="pricing__price">$ 25</div>
@@ -141,12 +141,12 @@
                             <div class="pricing__item">2 Subdomain</div>
                             <div class="pricing__item">5 E-mails</div>
                             <div class="pricing__item">One year license</div>
-                            <div class="pricing__item pricing__item-not">Full support</div>
+                            <div class="pricing__item pricing__item--not">Full support</div>
                         </ul>
                         <a href="" class="pricing__button">Begin</a>
                     </div>
 
-                    <div class="pricing__box pricing__box-premium">
+                    <div class="pricing__box pricing__box--premium">
                         <div class="pricing__detail">
                             <div class="pricing__type">Premium</div>
                             <div class="pricing__price">$ 60</div>
@@ -170,14 +170,14 @@
                 <h2 class="contact__title">Any questions?</h2>
                 <p class="contact__information">Leave yopu email address or call us!</p>
                 <div class="contact__details">
-                    <a href="" class="detail__item"><img src="./assets/Mail Icon.svg" alt="mail">info@bestshop.xyz</a>
+                    <a href="" class="contact__details--item"><img src="./assets/Mail Icon.svg" alt="mail">info@bestshop.xyz</a>
 
-                    <a href="" class="detail__item"><img src="./assets/Phone Icon.svg" alt="phone">123 456 789</a>
+                    <a href="" class="contact__details--item"><img src="./assets/Phone Icon.svg" alt="phone">123 456 789</a>
                 </div>
             </div>
 
             <div class="contact__column">
-                <form class="contact__form">
+                <form class="form">
                     <div class="form__field">
                         <label class="form__label" for="name">name</label>
                         <input class="form__input" type="text" id="name">
